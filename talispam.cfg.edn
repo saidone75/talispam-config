@@ -1,0 +1,9 @@
+{:training-corpus {
+ :spam-folders [".talispam/spam"
+                ".talispam/spam_2"]
+ :ham-folders ["/.talispam/easy_ham"
+               "/.talispam/easy_ham_2"]}
+ :dictionary {:use true
+              :files [".talispam/google-10000-english.txt"
+                      ".talispam/1000_parole_italiane_comuni.txt"]}
+:filter-db-location "/.talispam"}
