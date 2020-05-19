@@ -1,9 +1,11 @@
-{:training-corpus {
- :spam-folders [".talispam/spam"
-                ".talispam/spam_2"]
- :ham-folders ["/.talispam/easy_ham"
-               "/.talispam/easy_ham_2"]}
+{:training-corpus {:spam-mboxes []
+                   :spam-folders [".talispam/spam"
+                                  ".talispam/spam_2"]
+                   :ham-mboxes []
+                   :ham-folders [".talispam/easy_ham"
+                                 ".talispam/easy_ham_2"]}
  :dictionary {:use true
+              :location ".talispam/dict.json"
               :files [".talispam/google-10000-english.txt"
                       ".talispam/1000_parole_italiane_comuni.txt"]}
-:filter-db-location "/.talispam"}
+ :filter-db {:location ".talispam/db.json"}}
