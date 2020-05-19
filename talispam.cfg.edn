@@ -1,9 +1,10 @@
 {:training-corpus {:spam-mboxes []
-                   :spam-folders [".talispam/spam"
-                                  ".talispam/spam_2"]
-                   :ham-mboxes []
-                   :ham-folders [".talispam/easy_ham"
-                                 ".talispam/easy_ham_2"]}
+                   :spam-dirs [".talispam/spam"
+                               ".talispam/spam_2"]
+                   :ham-mboxes [".talispam/2018"
+                                ".talispam/2019"]
+                   :ham-dirs [".talispam/easy_ham"
+                              ".talispam/easy_ham_2"]}
  :dictionary {:use true
               :location ".talispam/dict.json"
               :files [".talispam/google-10000-english.txt"
