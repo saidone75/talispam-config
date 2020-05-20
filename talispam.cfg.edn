@@ -1,12 +1,12 @@
 {:training-corpus {:spam-mboxes []
-                   :spam-dirs [".talispam/spam"
-                               ".talispam/spam_2"]
-                   :ham-mboxes [".talispam/2018"
-                                ".talispam/2019"]
-                   :ham-dirs [".talispam/easy_ham"
-                              ".talispam/easy_ham_2"]}
+                   :spam-dirs ["~/.talispam/spam"
+                               "~/.talispam/spam_2"]
+                   :ham-mboxes ["~/.talispam/2018"
+                                "~/.talispam/2019"]
+                   :ham-dirs ["~/.talispam/easy_ham"
+                              "~/.talispam/easy_ham_2"]}
  :dictionary {:use true
-              :location ".talispam/dict.json"
-              :files [".talispam/google-10000-english.txt"
-                      ".talispam/1000_parole_italiane_comuni.txt"]}
- :filter-db {:location ".talispam/db.json"}}
+              :location "~/.talispam/dict.json"
+              :files ["~/.talispam/google-10000-english.txt"
+                      "~/.talispam/1000_parole_italiane_comuni.txt"]}
+ :filter-db {:location "~/talispam/db.json"}}
