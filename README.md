@@ -3,9 +3,7 @@ training corpus and basic config for [talispam](https://github.com/saidone75/tal
 
 ## Acknowledgements
 
-English tokens from [google-10000-english](https://github.com/first20hours/google-10000-english)
-
-Italian tokens from [paroleitaliane](https://github.com/napolux/paroleitaliane)
+English and Italian tokens from [FrequencyWords](https://github.com/hermitdave/FrequencyWords)
 
 Training corpus from [SpamAssassin](https://github.com/dmitrynogin/SpamAssassin)
 
