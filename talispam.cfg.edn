@@ -1,4 +1,5 @@
-{:training-corpus {:spam-dirs ["~/.talispam/spam"
+{:spam-threshold 95
+ :training-corpus {:spam-dirs ["~/.talispam/spam"
                                "~/.talispam/spam_2"]
                    :ham-dirs ["~/.talispam/easy_ham"
                               "~/.talispam/easy_ham_2"]}
