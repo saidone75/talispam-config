@@ -1,12 +1,12 @@
-{:spam-threshold 95
+{:spam-threshold 70
  :training-corpus {:spam-dirs ["~/.talispam/spam"
                                "~/.talispam/spam_2"]
                    :ham-dirs ["~/.talispam/easy_ham"
                               "~/.talispam/easy_ham_2"]}
  :dictionary {:use true
               :location "~/.talispam/dict.json"
-              :files ["~/.talispam/en10000.txt"
-                      "~/.talispam/it10000.txt"]}
+              :files ["~/.talispam/en50000.txt"
+                      "~/.talispam/it50000.txt"]}
  :filter-db {:location "~/.talispam/db.json"}
  :whitelist {:use true
              :location "~/.talispam/whitelist.txt"}}
