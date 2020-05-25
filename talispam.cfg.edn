@@ -5,8 +5,8 @@
                               "~/.talispam/easy_ham_2"]}
  :dictionary {:use true
               :location "~/.talispam/dict.json"
-              :files ["~/.talispam/en50000.txt"
-                      "~/.talispam/it50000.txt"]}
+              :files ["~/.talispam/en_20k.txt"
+                      "~/.talispam/it_30k.txt"]}
  :filter-db {:location "~/.talispam/db.json"}
  :whitelist {:use true
              :location "~/.talispam/whitelist.txt"}}
